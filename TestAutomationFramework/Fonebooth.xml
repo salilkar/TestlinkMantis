@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="none">
+	
+	<test name="Fonebooth Automation Test script">
+		<classes>
+			<class name="com.apps.testScripts.FoneboothAuto"/>
+		</classes>
+	</test>
+
+</suite>

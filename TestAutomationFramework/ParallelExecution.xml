@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests" thread-count="4">
+
+	<test
+		name="Test script for project execution of Predix Web App in Mac Firefox Browser">
+		<parameters>
+			<parameter name="platform" value="ANY" />
+			<parameter name="browserName" value="firefox" />
+			<!-- <parameter name="remoteURL" value="http://192.168.99.100:4444/wd/hub" /> -->
+			<parameter name="remoteURL" value="http://172.16.17.159:5557/wd/hub" />
+		</parameters>
+		<classes>
+			<class
+				name="com.apps.parallel.execution.tests.TechnicalModellingCustomerList" />
+		</classes>
+	</test>
+
+	<test name="Test script for project execution of Predix Web App in Windows Chrome Browser">
+		<parameters>
+			<parameter name="platform" value="ANY" />
+			<parameter name="browserName" value="chrome" />
+			<!-- <parameter name="remoteURL" value="http://192.168.99.100:4444/wd/hub" /> -->
+			<parameter name="remoteURL" value="http://172.16.17.151:5558/wd/hub" />
+		</parameters>
+		<classes>
+			<class
+				name="com.apps.parallel.execution.tests.TechnicalModellingFleetParameter" />
+		</classes>
+	</test>
+	
+	<test name="Test script for project execution of Box Android App">
+		<parameters>
+			<parameter name="platform" value="ANDROID" />
+			<parameter name="browserName" value="chrome" />
+			<parameter name="remoteURL" value="http://172.16.21.30:5559/wd/hub" />
+		</parameters>
+		<classes>
+			<class name="com.apps.parallel.execution.tests.LoginLogout" />
+		</classes>
+	</test>
+	
+	<test
+		name="Test script for project execution of Ge Powe MWeb App in iOS Safari Browser">
+		<parameters>
+			<parameter name="platform" value="MAC" />
+			<parameter name="browserName" value="safari" />
+			<parameter name="remoteURL" value="http://172.16.21.30:5560/wd/hub" />
+		</parameters>
+		<classes>
+			<class name="com.apps.parallel.execution.tests.Login" />
+		</classes>
+	</test>
+	
+	<!-- <test
+		name="Test script for project execution of Predix Web App in Mac Firefox Browser">
+		<parameters>
+			<parameter name="platform" value="ANY" />
+			<parameter name="browserName" value="firefox" />
+			<parameter name="remoteURL" value="http://192.168.99.100:4444/wd/hub" />
+		</parameters>
+		<classes>
+			<class
+				name="com.apps.parallel.execution.tests.TechnicalModellingCustomerList" />
+			<class
+				name="com.apps.parallel.execution.tests.TechnicalModellingContactsList" />
+			<class
+				name="com.apps.parallel.execution.tests.TechnicalModellingFleetParameter" />
+			<class
+				name="com.apps.parallel.execution.tests.TechnicalModellingBackToCustomerList" />
+		</classes>
+	</test>
+
+	<test name="Test script for project execution of Predix Web App in Windows Chrome Browser">
+		<parameters>
+			<parameter name="platform" value="ANY" />
+			<parameter name="browserName" value="chrome" />
+			<parameter name="remoteURL" value="http://192.168.99.100:4444/wd/hub" />
+		</parameters>
+		<classes>
+			<class
+				name="com.apps.parallel.execution.tests.TechnicalModellingContactsList" />
+			<class
+				name="com.apps.parallel.execution.tests.TechnicalModellingBackToCustomerList" />
+			<class
+				name="com.apps.parallel.execution.tests.TechnicalModellingCustomerList" />
+			<class
+				name="com.apps.parallel.execution.tests.TechnicalModellingFleetParameter" />
+		</classes>
+	</test> -->
+
+</suite>

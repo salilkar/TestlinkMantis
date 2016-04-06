@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37129" started-at="2016-04-06T10:14:14Z" finished-at="2016-04-06T10:14:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="37129" started-at="2016-04-06T10:14:14Z" finished-at="2016-04-06T10:14:51Z">
+      <class name="com.apps.testScripts.TestlinkIntegration">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:com.apps.testScripts.TestlinkIntegration@6fc757]" name="startUp" is-config="true" duration-ms="23573" started-at="2016-04-06T15:44:14Z" finished-at="2016-04-06T15:44:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.apps.testScripts.TestlinkIntegration@6fc757]" name="beforeTest" is-config="true" duration-ms="0" started-at="2016-04-06T15:44:37Z" finished-at="2016-04-06T15:44:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.apps.testScripts.TestlinkIntegration.test(org.testng.ITestContext) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="test(org.testng.ITestContext)[pri:0, instance:com.apps.testScripts.TestlinkIntegration@6fc757]" name="test" duration-ms="13528" started-at="2016-04-06T15:44:37Z" finished-at="2016-04-06T15:44:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4fabb2cd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.apps.testScripts.TestlinkIntegration@6fc757]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-04-06T15:44:51Z" finished-at="2016-04-06T15:44:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.apps.testScripts.TestlinkIntegration@6fc757]" name="tearDown" is-config="true" duration-ms="6" started-at="2016-04-06T15:44:51Z" finished-at="2016-04-06T15:44:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.apps.testScripts.TestlinkIntegration -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
